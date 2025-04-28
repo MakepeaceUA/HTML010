@@ -1,0 +1,32 @@
+.header {
+  background-color: red;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: wheat;
+}
+
+.card {
+  background-color: green;
+  padding: 40px;
+  margin: 10px;
+  box-sizing: border-box;
+  flex: 22%;
+}
+
+
+.footer {
+  background-color: purple;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 45%;
+  }
+}
